@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>My Title</title>
+ </head>
+ <body>
+ <!-- view 표현 태그 -->
+ <p> <b> b 태그는 기본 글꼴입니다. </b></p>
+ <p> <i> i 태그는 기울임 글꼴입니다. </i></p>
+  내가 처음 만듬 웹페이지
+ <!-- 의미 표현 태그 -->
+ <p> <em> em 태그는 강조 표시입니다. </em></p>
+ <p> <del> del 태그는 취소선 표시입니다. </del></p>
+
+ <p> <abbr title = "Hyper Text Markup Language 5 version">HTML5</abbr>
+ 인터넷에서 사용되는 언어입니다.</p>
+ <p> <dfn title = "Hyper Text Markup Language 5 version">HTML5</dfn>
+ 인터넷에서 사용되는 언어입니다.</p>
+ <address>
+  <p> w3c사이트입니다. </p>
+  </address>
+  <p> "1-2-3-4-5"를 역순으로 표시하면 : <bdo dir ="rtl"> 1-2-3-4-5</bdo></p>
+  <p> "1-2-3-4-5"를 역순으로 표시하면 : <bdo dir ="ltr"> 1-2-3-4-5</bdo></p>
+ <blockquote citi = "http://www.w3c.org">
+ <p> blockquote : HTML5는 인터넷에서 사용되는 언어입니다.</p>
+ </blockquote>
+ <p> 충무공이 명언 : q태그로 <q>전하 신에게는 아직 12척의 배가 남았습니다.</q></p>
+
+ <a href = "https://www.w3.org" title = "w3c사이트" > 웹표준을 구현하는 w3c로 </a> <br>
+ <br>
+ <a href = "https://www.w3.org" target = "_blank" > 웹표준을 구현하는 w3c로 
+ </a> (_blank)<br>
+  <a href = "https://www.w3.org" target = "_self" > 웹표준을 구현하는 w3c로 
+ </a> (_self)<br>
+  <a href = "https://www.w3.org" target = "_top" > 웹표준을 구현하는 w3c로 
+ </a> (_top)<br>
+  <a href = "https://www.w3.org" target = "_parent" > 웹표준을 구현하는 w3c로 
+ </a> (_parent)<br>
+ <img src = "sec01/img/pic1.jpg"> 원본크기
+ <img src = "sec01/img/pic1.jpg" width = "50"> 75% 폭 줄임
+ <img src = "sec01/img/pic1.jpg" width = "75" height = "50"> 폭 높이 줄임
+ <br>
+ 이미지링크해도 w3c <br>
+ <a href = "https://www.w3.org/">
+ <img src = "sec01/img/pic2.jpg" width = "150" align ="top">
+ </a>
+
+ <a href = "#footer"> 문서의 하단 지정 위치로 </a>
+    <a id = "footer"> 하단위치</a>
+	<br>
+	<br>
+	<a href = "#top"> 문서의 상단 지정 위치로 </a>
+	<br>
+	<br>
+	<a href = "View.html!#otherpage"> 다른 HTML 페이지 책갈피 이동 </a>
+ </body>
+</html>
