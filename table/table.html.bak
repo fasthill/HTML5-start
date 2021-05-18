@@ -51,5 +51,15 @@
 
    <h3>인라인 시맨틱 태그 사례</h3>
    <hr>
+   <p> 매일 매일
+   <mark> HTML5 강좌 </mark>
+   <br> 시간은
+   <time> 10:00 (PM) </time>
+   <br> 난이도
+   <meter value = "0.6">60%</meter>
+   <br> 자료업로딩(50%)
+   <progress value="5' max = "10"></progress>
+   <br>
+   </p>
  </body>
 </html>
